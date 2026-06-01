@@ -72,7 +72,24 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 6:  
   Stop
 # Program:
+```
+#include<stdio.h>
+
+#define PI 3.14159
+
+int main()
+{
+    const int DAYS = 7;
+
+    printf("Value of PI: %f\n", PI);
+    printf("Value of DAYS: %d\n", DAYS);
+
+    return 0;
+}
+```
 # Output:
+<img width="525" height="170" alt="image" src="https://github.com/user-attachments/assets/85859450-6248-4d93-8f94-fb42fa7ddd3a" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -96,9 +113,29 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 5:    
    Stop
 # Program:
-# Output:
-# Result: 
+```
+#include<stdio.h>
 
+int main()
+{
+    int a = 10;
+    float b = 3.5;
+    double c = 123.456;
+    char d = 'X';
+
+    printf("Integer: %d\n", a);
+    printf("Float: %f\n", b);
+    printf("Double: %lf\n", c);
+    printf("Character: %c\n", d);
+
+    return 0;
+}
+```
+# Output:
+<img width="530" height="296" alt="image" src="https://github.com/user-attachments/assets/84558262-f81f-4d77-ac6d-161dbbf13b62" />
+
+# Result: 
+Thus, the program was implemented and executed successfully, and the required output was obtained.
 # 19AI304-Fundamentals-of-C-Programming-2025-Odd
 # IAPR-1- Module 1 - FoC
 # Ex.No:4
@@ -135,7 +172,38 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+```
+#include<stdio.h>
+
+int main()
+{
+    int a, b;
+
+    printf("Enter two integers: ");
+    scanf("%d %d", &a, &b);
+
+    // Arithmetic
+    printf("Addition: %d\n", a + b);
+    printf("Subtraction: %d\n", a - b);
+    printf("Multiplication: %d\n", a * b);
+    printf("Division: %d\n", a / b);
+    printf("Remainder: %d\n", a % b);
+
+    // Bitwise
+    printf("AND: %d\n", a & b);
+    printf("OR: %d\n", a | b);
+    printf("XOR: %d\n", a ^ b);
+    printf("Left Shift: %d\n", a << b);
+    printf("Right Shift: %d\n", a >> b);
+    printf("NOT a: %d\n", ~a);
+    printf("NOT b: %d\n", ~b);
+
+    return 0;
+}
+```
 # Output:
+<img width="470" height="570" alt="image" src="https://github.com/user-attachments/assets/5432196a-aa67-47e5-ba4f-72a84e8a3375" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -180,7 +248,29 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+```
+#include<stdio.h>
+
+int main()
+{
+    char ch;
+
+    printf("Enter a character: ");
+    scanf("%c", &ch);
+
+    (ch >= '0' && ch <= '9') ? printf("Digit") :
+    ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')) ?
+        ((ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||
+          ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U') ?
+          printf("Vowel") : printf("Consonant"))
+    : printf("Special Symbol");
+
+    return 0;
+}
+```
 # Output:
+<img width="478" height="204" alt="image" src="https://github.com/user-attachments/assets/e0f224c8-3aff-42ef-bbcf-ecd498f185d9" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
